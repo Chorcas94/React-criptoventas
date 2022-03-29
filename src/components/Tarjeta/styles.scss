@@ -1,0 +1,22 @@
+@import "node_modules/bootstrap/scss/bootstrap";
+
+.card-title {
+    height:100px;
+    padding: 1.5rem 1rem;
+    background-color: $cyan-600;
+    border-radius: 10px;
+}
+
+.card-titulo {
+    margin-bottom: 0;
+    color:white;
+    text-align: center;
+    
+}
+
+.card-description {
+    padding-top: 10px;
+    padding-bottom: 10px;
+    width: 100%;
+    height: 150px;
+}

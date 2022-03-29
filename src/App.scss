@@ -1,20 +1,18 @@
 
 @import url('https://fonts.googleapis.com/css2?family=Rubik:wght@400;600&display=swap');
-
+@import "../node_modules/bootstrap/scss/bootstrap";
 
 *{
   margin:0;
   padding:0;
 }
 
-
 // Mis variables 
 $light: #ffffff;
 $gray: #c4ccde;
 
-
 .navbar{
-  background-color: $light;
+  background-color: $cyan-600;
   padding: 1rem 2rem;
   border-bottom: 1px solid $gray;
 }
@@ -22,10 +20,16 @@ $gray: #c4ccde;
 body{
   font-family: 'Rubik', sans-serif;
 }
+
+.notFound{
+  width: 100%;
+}
+
 .Sidebar{
   width: 14rem;
   height: calc(100vh - 52px);
   border-right: 1px solid $gray;
+
   ul{
     list-style: none;
     padding: 1rem 2rem;
