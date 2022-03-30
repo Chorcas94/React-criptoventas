@@ -12,6 +12,9 @@ const Sidebar =()=>{
                </li>
                <li>
                    <NavLink to="/productos" className="rounded py2 w-100 d-inline-block px-3" ><i className="bi bi-box"></i> Productos</NavLink>
+               </li>              
+                <li>
+                   <NavLink to="/categorias" className="rounded py2 w-100 d-inline-block px-3" ><i className="bi bi-tag"></i> Categorias</NavLink>
                </li>
            </ul>
         </div>

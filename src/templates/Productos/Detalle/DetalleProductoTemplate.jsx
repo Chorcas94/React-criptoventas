@@ -2,8 +2,7 @@ import "./styles.scss"
 import Button from "components/Button/Button"
 const DetalleProductoTemplate = ({producto=undefined,handleCancel}) => {
     return ( 
-        
-            (<div>
+            <div>
                     {producto && <div>
                         <p className="display-5 content">{producto.nombre}</p>
                         <div className="content">
@@ -21,7 +20,7 @@ const DetalleProductoTemplate = ({producto=undefined,handleCancel}) => {
                                 <dd className="col-sm-9">{producto.precio}</dd>
                                 
                                 <div>
-                                <img alt="imagen producto" src={producto.imagenes_producto}  className="image-container "/>
+                                <img alt="imagen producto" src={producto.imagenes_producto}  className="image-container"/>
                                 </div>
                             
                             </dl>
@@ -30,7 +29,7 @@ const DetalleProductoTemplate = ({producto=undefined,handleCancel}) => {
                     <div style={{width:200}}>
                         <Button name="Atras" handleClick={handleCancel} />
                     </div>
-            </div> )
+            </div> 
             );
 }
  
